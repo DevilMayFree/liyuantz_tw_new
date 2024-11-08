@@ -1,0 +1,712 @@
+.bannerbox {
+  position: relative;
+  width: 100%;
+}
+.bannerbox .carousel {
+  width: 100%;
+  z-index: -1;
+}
+.partner {
+  display: flex;
+  align-items: center;
+  float: right;
+  margin: -8% 13% 0 0;
+  width: 51%;
+  max-width: 960px;
+  max-height: 456px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0px 2px 40px 20px rgba(95, 95, 95, 0.04);
+}
+.partner .partnercon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  height: 100%;
+  color: #333;
+  padding: 0 5%;
+}
+.partner .partnercon h2 {
+  font-size: 48px;
+  font-family: 'SourceHanSerifCN-Bold';
+  font-weight: bold;
+  color: #333;
+  line-height: 1.4;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.partner .partnercon .main {
+  font-size: 19px;
+  color: #333;
+  line-height: 2;
+  margin: 6% 0 7%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  /*-webkit-line-clamp: 3;*/
+  overflow: hidden;
+}
+.partner .partnerimg {
+  width: 51%;
+}
+.partner .partnerimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.superiority {
+  padding: 0 12%;
+}
+.superiority .htitle h2 {
+  font-size: 40px;
+}
+.superiority .superiority-p {
+  font-size: 24px;
+}
+.advantagebox {
+  width: 100%;
+  height: 560px;
+  overflow: hidden;
+  margin-top: 3%;
+}
+.advantagebox .advantagerow {
+  height: 100%;
+}
+.advantagebox .advantagerow .advantage {
+  position: relative;
+  padding: 0;
+  height: 100%;
+}
+.advantagebox .advantagerow .advantage .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.48);
+  transition: all 0.5s;
+  z-index: 2;
+}
+.advantagebox .advantagerow .advantage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.advantagebox .advantagerow .advantage h3 {
+  position: absolute;
+  left: 8%;
+  bottom: 8%;
+  font-size: 24px;
+  line-height: 1.8;
+  font-family: 'SourceHanSerifCN-Bold';
+  color: #fff;
+  margin: 0;
+}
+.advantagebox .advantagerow .advantage .line {
+  position: absolute;
+  left: 8%;
+  bottom: 5%;
+  width: 20%;
+  height: 2px;
+  background-color: #fff;
+  transition: all 0.5s;
+}
+.advantagebox .advantagerow .advantage:hover .bg {
+  opacity: 0;
+}
+.advantagebox .advantagerow .advantage:hover .line {
+  width: 35%;
+  background-color: #D19E5F;
+}
+.programme {
+  max-width: 1920px;
+  padding: 0 11%;
+  margin: 3% auto 0;
+}
+.programme .prog {
+  position: relative;
+  width: 100%;
+}
+.programme .programme-bg {
+  width: 99%;
+  height: 100%;
+  max-height: 719px;
+  overflow: hidden;
+}
+.programme .programme-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.programme .programme-main {
+  position: absolute;
+  top: 19%;
+  right: 0;
+  max-width: 693px;
+  max-height: 401px;
+  width: 50%;
+  background: rgba(5, 55, 88, 0.8);
+  padding: 3% 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.programme .programme-main h2 {
+  font-family: 'SourceHanSerifCN-Bold';
+  font-weight: bold;
+  font-size: 32px;
+  color: #fff;
+  line-height: 1.1;
+  overflow: hidden;
+  margin: 0;
+}
+.programme .programme-main .mainp {
+  padding: 5% 0;
+  font-size: 22px;
+  color: #fff;
+  line-height: 2;
+}
+.businessbox {
+  max-width: 1920px;
+  padding: 0 10.5%;
+  height: auto;
+  margin: 4% auto 2%;
+}
+.businessbox ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+.businessbox ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 570px;
+  max-height: 570px;
+  padding: 3.8% 3%;
+  border-radius: 5px;
+  box-shadow: 0px 2px 30px 10px rgba(95, 95, 95, 0.04);
+  margin: 0 1% 3%;
+  border: 1px solid #fff;
+  transition: all 0.5s;
+}
+.businessbox ul li .newbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.businessbox ul li .iconimg {
+  transition: all 0.5s;
+  width: 132px;
+  height: 132px;
+  border: 3px solid #d19e5f;
+  border-radius: 50%;
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 1%;
+}
+.businessbox ul li .img1 {
+  background: url('https://1140.com.hk/Home/images/img/smgq.jpg') no-repeat 50% 50%;
+  background-size: 100% 100%;
+}
+.businessbox ul li .img2 {
+  background: url('https://1140.com.hk/Home/images/img/tzzh.png') no-repeat 50% 50%;
+  background-size: 100% 100%;
+}
+.businessbox ul li .img3 {
+  background: url('https://1140.com.hk/Home/images/img/jy.jpg') no-repeat 50% 50%;
+  background-size: 100% 100%;
+}
+.businessbox ul li .business-main {
+  transition: all 0.5s;
+  width: 100%;
+}
+.businessbox ul li .business-main h3 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 36px;
+  color: #474646;
+  font-family: 'SourceHanSerifCN-Bold';
+  font-weight: bold;
+  transition: all 0.5s;
+  text-align: center;
+  margin: 6% auto;
+}
+.businessbox ul li .business-main p {
+  font-size: 22px;
+  line-height: 1.7;
+  color: #333;
+  transition: all 0.5s;
+  margin-bottom: 6%;
+}
+.businessbox ul li:hover {
+  border: 1px solid #D19E5F;
+  box-shadow: 0px 2px 40px 20px rgba(95, 95, 95, 0.04);
+}
+.businessbox ul li:hover .iconimg {
+  background-color: #d19e5f;
+  box-shadow: 4px 10px 9px 1px rgba(209, 158, 95, 0.33);
+}
+.businessbox ul li:hover .img1 {
+  background: url('https://1140.com.hk/Home/images/img/smgq2.jpg') no-repeat 50% 50%;
+  background-size: 100% 100%;
+}
+.businessbox ul li:hover .img2 {
+  background: url('https://1140.com.hk/Home/images/img/tzzh2.png') no-repeat 50% 50%;
+  background-size: 100% 100%;
+}
+.businessbox ul li:hover .img3 {
+  background: url('https://1140.com.hk/Home/images/img/jy2.jpg') no-repeat 50% 50%;
+  background-size: 100% 100%;
+}
+.realtime {
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+.realtime .superiority {
+  margin: auto;
+}
+.realtime .card-group {
+  margin: 7% auto 0;
+  max-width: 1920px;
+  padding: 0 6%;
+}
+.realtime .card-group .card {
+  background-color: transparent;
+  border: none;
+  margin: 0 1% 8%;
+  transition: all 0.5s;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 40px 20px rgba(95, 95, 95, 0.04);
+}
+.realtime .card-group .card img {
+  object-fit: cover;
+  max-height: 371px;
+}
+.realtime .card-group .card .card-body {
+  padding: 5%;
+}
+.realtime .card-group .card .card-body .card-title {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 24px;
+  color: #043859;
+  margin: 1% 0 3%;
+}
+.realtime .card-group .card .card-body .card-text {
+  transition: all 0.5s;
+  font-family: 'SourceHanSerifCN-Bold';
+  font-size: 32px;
+  font-weight: bold;
+  color: #171717;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  cursor: default;
+}
+.realtime .card-group .card .card-body .morebtn {
+  transition: all 0.5s;
+  margin-top: 6%;
+  background: #FFFFFF;
+  border: 1px solid #CA9359;
+  box-shadow: 0px 2px 40px 20px rgba(95, 95, 95, 0.04);
+}
+.realtime .card-group .card .card-body .morebtn .txt {
+  color: #d19e5f;
+}
+.realtime .card-group .card .card-body .morebtn .plus {
+  color: #d19e5f;
+}
+.realtime .card-group .card:hover {
+  background-color: #fff;
+  box-shadow: -8px 9px 27px 2px rgba(162, 162, 162, 0.1);
+}
+.realtime .card-group .card:hover .card-text {
+  color: #d19e5f;
+}
+.realtime .card-group .card:hover .morebtn {
+  background: #d19e5f;
+}
+.realtime .card-group .card:hover .morebtn .txt {
+  color: #fff;
+}
+.realtime .card-group .card:hover .morebtn .plus {
+  color: #fff;
+}
+.noneli {
+  display: none !important;
+}
+.advantageswiper {
+  display: none;
+  position: relative;
+  width: 85%;
+  height: 270px;
+  margin: 3% auto 2%;
+  overflow: hidden;
+}
+.advantageswiper .swiper-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.advantageswiper .swiper-wrapper .swiper-slide {
+  position: relative;
+  width: 100%;
+}
+.advantageswiper .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.advantageswiper .swiper-wrapper .swiper-slide p {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 100%;
+  color: #333;
+  text-align: center;
+  line-height: 3;
+  font-size: 16px;
+  font-family: 'SourceHanSerifCN-Bold';
+  font-weight: bold;
+}
+.advantageswiper .swiper-button-next1 {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+  display: inline-block;
+  font-size: 30px;
+  color: #d19e5f;
+  z-index: 3;
+}
+.advantageswiper .swiper-button-prev1 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  display: inline-block;
+  font-size: 30px;
+  color: #d19e5f;
+  z-index: 3;
+}
+@media (max-width: 1700px) {
+  .partner .partnercon h2 {
+    font-size: 40px;
+  }
+  .partner .partnercon .main {
+    font-size: 17px;
+  }
+  .advantagebox {
+    height: 504px;
+  }
+  .advantagebox .advantagerow .advantage h3 {
+    font-size: 22px;
+  }
+  .programme {
+    padding: 0 10%;
+  }
+  .programme .programme-main h2 {
+    font-size: 28px;
+  }
+  .programme .programme-main .mainp {
+    font-size: 20px;
+  }
+  .businessbox {
+    padding: 0 9.5%;
+  }
+  .businessbox ul li {
+    height: 510px;
+  }
+  .businessbox ul li .iconimg {
+    width: 112px;
+    height: 112px;
+  }
+  .businessbox ul li .business-main h3 {
+    font-size: 34px;
+  }
+  .businessbox ul li .business-main p {
+    font-size: 20px;
+  }
+  .realtime .card-group {
+    padding: 0 5%;
+  }
+  .realtime .card-group .card .card-body .card-title {
+    font-size: 20px;
+  }
+  .realtime .card-group .card .card-body .card-text {
+    font-size: 28px;
+  }
+}
+@media (max-width: 1500px) {
+  .partner .partnercon h2 {
+    font-size: 36px;
+  }
+  .partner .partnercon .main {
+    font-size: 15px;
+  }
+  .advantagebox {
+    height: 454px;
+  }
+  .advantagebox .advantagerow .advantage h3 {
+    font-size: 20px;
+  }
+  .programme {
+    padding: 0 8%;
+  }
+  .programme .programme-main h2 {
+    font-size: 26px;
+  }
+  .programme .programme-main .mainp {
+    font-size: 18px;
+  }
+  .businessbox {
+    padding: 0 7.5%;
+  }
+  .businessbox ul li {
+    height: 440px;
+  }
+  .businessbox ul li .iconimg {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #d19e5f;
+  }
+  .businessbox ul li .business-main h3 {
+    font-size: 32px;
+  }
+  .businessbox ul li .business-main p {
+    font-size: 16px;
+  }
+  .realtime .card-group {
+    padding: 0 4%;
+  }
+  .realtime .card-group .card .card-body .card-title {
+    font-size: 18px;
+  }
+  .realtime .card-group .card .card-body .card-text {
+    font-size: 26px;
+  }
+}
+@media (max-width: 1300px) {
+  .partner {
+    width: 55%;
+  }
+  .partner .partnercon h2 {
+    font-size: 32px;
+  }
+  .partner .partnercon .main {
+    font-size: 14px;
+  }
+  .advantagebox {
+    height: 408px;
+  }
+  .advantagebox .advantagerow .advantage h3 {
+    font-size: 18px;
+  }
+  .programme {
+    padding: 0 8%;
+  }
+  .programme .programme-main h2 {
+    font-size: 24px;
+  }
+  .programme .programme-main .mainp {
+    font-size: 16px;
+  }
+  .businessbox {
+    padding: 0 7.5%;
+  }
+  .businessbox ul li {
+    height: 380px;
+  }
+  .businessbox ul li .iconimg {
+    width: 95px;
+    height: 95px;
+  }
+  .businessbox ul li .business-main h3 {
+    font-size: 28px;
+  }
+  .businessbox ul li .business-main p {
+    font-size: 14px;
+  }
+  .realtime .card-group {
+    padding: 0 4%;
+  }
+  .realtime .card-group .card .card-body .card-title {
+    font-size: 16px;
+  }
+  .realtime .card-group .card .card-body .card-text {
+    font-size: 24px;
+  }
+}
+@media (max-width: 1100px) {
+  .partner {
+    width: 55%;
+  }
+  .partner .partnercon h2 {
+    font-size: 28px;
+  }
+  .partner .partnercon .main {
+    font-size: 14px;
+  }
+  .advantagebox {
+    height: 377px;
+  }
+  .advantagebox .advantagerow .advantage h3 {
+    font-size: 16px;
+  }
+  .programme {
+    padding: 0 7%;
+  }
+  .programme .programme-main h2 {
+    font-size: 22px;
+  }
+  .programme .programme-main .mainp {
+    font-size: 14px;
+  }
+  .businessbox {
+    padding: 0 6.5%;
+  }
+  .businessbox ul li {
+    height: 370px;
+  }
+  .businessbox ul li .iconimg {
+    width: 90px;
+    height: 90px;
+  }
+  .businessbox ul li .business-main h3 {
+    font-size: 26px;
+  }
+  .businessbox ul li .business-main p {
+    font-size: 14px;
+  }
+  .realtime .card-group {
+    padding: 0 3%;
+  }
+  .realtime .card-group .card .card-body .card-title {
+    font-size: 16px;
+  }
+  .realtime .card-group .card .card-body .card-text {
+    font-size: 24px;
+  }
+}
+@media (max-width: 1000px) {
+  .businessbox ul {
+    flex-direction: column;
+  }
+  .businessbox ul li {
+    height: auto;
+  }
+  .partner {
+    width: 100%;
+    margin: auto;
+  }
+}
+@media (max-width: 560px) {
+  .partner {
+    width: 100%;
+    margin: auto;
+  }
+  .partner .partnerimg {
+    width: 45%;
+  }
+  .partner .partnercon {
+    padding: 0 2%;
+  }
+  .partner .partnercon h2 {
+    font-size: 22px;
+  }
+  .partner .partnercon .main {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 4% 0 6%;
+  }
+  .advantagebox {
+    display: none;
+  }
+  .advantageswiper {
+    display: block;
+  }
+  .programme {
+    padding: 0;
+  }
+  .programme .programme-main {
+    position: static;
+    width: 100%;
+    background: #053758;
+  }
+  .programme .programme-main h2 {
+    font-size: 22px;
+  }
+  .programme .programme-main .mainp {
+    font-size: 14px;
+  }
+  .businessbox {
+    padding: 0;
+  }
+  .businessbox ul {
+    padding: 0 4%;
+    margin: 0;
+    flex-direction: column;
+  }
+  .businessbox ul li {
+    height: auto;
+    padding: 4% 6%;
+    margin: 0 0 4%;
+  }
+  .businessbox ul li .iconimg {
+    width: 90px;
+    height: 90px;
+    border: 2px solid #d19e5f;
+  }
+  .businessbox ul li .business-main h3 {
+    font-size: 24px;
+  }
+  .businessbox ul li .business-main p {
+    font-size: 16px;
+  }
+  .realtime .card-group {
+    padding: 0 3%;
+  }
+  .realtime .card-group .card .card-body .card-title {
+    font-size: 16px;
+  }
+  .realtime .card-group .card .card-body .card-text {
+    font-size: 22px;
+  }
+}
+@media (max-width: 460px) {
+  .partner {
+    width: 100%;
+    margin: auto;
+  }
+  .partner .partnerimg {
+    width: 45%;
+  }
+  .partner .partnercon {
+    padding: 0 2%;
+  }
+  .partner .partnercon h2 {
+    font-size: 20px;
+  }
+  .partner .partnercon .main {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 4% 0 6%;
+  }
+  .advantageswiper {
+    height: 200px;
+  }
+}
